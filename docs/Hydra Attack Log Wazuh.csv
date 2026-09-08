@@ -1,0 +1,11 @@
+icon,timestamp,agent.id,agent.name,rule.mitre.id,rule.mitre.tactic,rule.description,rule.level,rule.id
+,"Sep 8, 2026 @ 12:39:54.202","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:54.102","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:54.008","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.959","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.928","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.879","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.689","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.657","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:53.610","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
+,"Sep 8, 2026 @ 12:39:43.604","001","win-target",["T1531"],["Impact"],"Logon Failure - Unknown user or bad password","5","60122"
