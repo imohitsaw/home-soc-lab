@@ -30,7 +30,7 @@ Hydra -> Attack tool (Linux)
 
 Each case study covers one attack: what was run, what showed up in Wazuh (or didn't), and what that means.
 
-- [Case 01 - NMAP Port Scan](case-studies/Case01-Port-Scan-(Nmap-SYN-Scan).md)
+- [Case 01 - NMAP Port Scan](case-studies/%20Case01-Port%20Scan-(Nmap-SYN-Scan).md)
 - [Case 02 - RDP brute Force Attack](case-studies/Case-02-rdp-brute-force.md)
 
 -------- BUILD NOTES --------
