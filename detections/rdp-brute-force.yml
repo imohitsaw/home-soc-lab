@@ -1,0 +1,24 @@
+title: RDP Brute Force - Multiple Failed Logon Attempts
+id: 3f1b2a9c-7e4d-4a2b-9c6e-1d8f5a3b2c10
+status: experimental
+description: >
+  Detects a high number of failed RDP logon attempts against a single account
+  in a short window, consistent with a brute-force tool such as Hydra.
+author: Mohit Sawant
+date: 2026-09-29
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+    LogonType: 10
+  timeframe: 5m
+  condition: selection | count(TargetUserName) by TargetUserName > 5
+falsepositives:
+  - Legitimate user repeatedly mistyping their password
+  - Automated service account misconfiguration
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1110
