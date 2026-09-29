@@ -18,7 +18,7 @@ Ran Hydra again, and this time Windows actually locked the account. Confirmed it
 
 "The referenced account is currently locked out and may not be logged on to."
 
-(screenshot: case02-windows-lockout.png)
+![Windows lockout](../screenshots/Case02-windows-lockout.png)
 
 Detection
 
@@ -27,7 +27,7 @@ Windows Security log:
 - Event 4625 - failed logon, one per attempt.
 - Event 4740 - account locked out
 
-(screenshot: case02-event-4625.png)
+![Failed Logn](../screenshots/Case02-event-4625.png)
 
 Wazuh, via the agent, picked this up from the Security log (not Sysmon):
 
@@ -35,7 +35,7 @@ Wazuh, via the agent, picked this up from the Security log (not Sysmon):
 - Rule 60204 - Multiple Windows Logon Failures (level 10)
 - Rule 60115 - Account locked out (level 9), tagged T1110 - Brute Force
 
-(screenshot: case02-wazuh-detection.png)
+![Wazuh Detection](../screenshots/Login%20Attacks%20Wazuh.png)
 
 What I learned
 
